@@ -1,0 +1,105 @@
+@import url(https://fonts.googlepis.com/css?family=Montserrat:400,700);
+body {
+  color: black;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+#header {
+  background-color: darkGreen;
+  height: 150px;
+  line-height: 150px;
+}
+#header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#header a:hover {
+  color: black
+}
+#header-title {
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.jeddie {
+  transform: rotate(90deg);
+}
+.post, .about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.post-author img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.post-author span {
+  margin-left: 16px;
+}
+.post-date {
+  color: darkGreen;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+h1, h2, h3, h4 {
+  color: #333;
+}
+p {
+  line-height: 1.5;
+}
+.post-containerone {
+  background-color: lightGray;
+}
+#footer {
+  background-color: black;
+  padding: 50px 0;
+}
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#footer p {
+  color: white;
+}
+a {
+  color: darkGreen;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+.about-author img {
+  border-radius: 50%;
+}
+.about {
+  text-align: center;
+}
+strong {
+  color: darkGreen;
+}
