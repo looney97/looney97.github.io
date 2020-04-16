@@ -76,7 +76,7 @@ p {
 }
 .column {
   min-width: 300px;
-  max-width: 300px;
+  max-width: 500px;
   display: inline-block;
   vertical-align: top;
 }
